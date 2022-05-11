@@ -21,8 +21,8 @@ float f(float x, float y)
 
 int main()
 {
-    int i, n;
-    float x0, y0, h, x, y;
+    int i;
+    float x0, y0, h, x, y, n;
     printf("Enter the values of x0, y0, h, x: \n");
     scanf("%f%f%f%f", &x0, &y0, &h, &x);
     n = (x - x0) / h;
@@ -38,7 +38,7 @@ int main()
 }
 
 /* OUTPUT:
-Enter the values of x0, y0, h, x: 
+Enter the values of x0, y0, h, x:
 0
 1
 0.2

@@ -17,8 +17,7 @@ float f(float x, float y)
 
 int main()
 {
-    int n;
-    float x0, y0, x, y, h, k, k1, k2, k3, k4;
+    float x0, y0, x, y, h, k, k1, k2, k3, k4, n;
 
     // Taking user inputs
     printf("Enter the value of x0,y0,x,h: \n");
@@ -43,7 +42,7 @@ int main()
 }
 
 /* OUTPUT:
-Enter the value of x0,y0,x,h: 
+Enter the value of x0,y0,x,h:
 0
 1
 0.4
