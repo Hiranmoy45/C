@@ -12,7 +12,9 @@ int main()
     printf("Enter the values of x and f(x)\n");
     printf("x\t\tf(x)\n");
     for (i = 1; i <= n; i++)
+    {
         scanf("%f\t%f", &x[i], &y[i]);
+    }
     printf("Value of x where the functional value is to be determined\n");
     scanf("%f", &X);
     for (i = 1; i <= n; i++)
@@ -20,7 +22,8 @@ int main()
         v = y[i];
         for (j = 1; j <= n; j++)
         {
-            if (j != i){
+            if (j != i)
+            {
                 v = v * (X - x[j]) / (x[i] - x[j]);
             }
         }
