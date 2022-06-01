@@ -37,6 +37,9 @@ int main()
     matrix[0][1] = sum_x;
     matrix[0][2] = sum_x2;
     matrix[0][3] = sum_y;
+    matrix[1][0] = sum_x;
+    matrix[1][1] = sum_x2;
+    matrix[1][2] = sum_x3;
     matrix[1][3] = sum_xy;
     matrix[2][0] = sum_x2;
     matrix[2][1] = sum_x3;
