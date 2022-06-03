@@ -1,4 +1,4 @@
-// Date: 31st May
+// Date: 2nd June
 // Curve fitting of a polynomial function
 
 /*Question:  C Program to fit a parabola of second degree: y=a+bx+cx^2
