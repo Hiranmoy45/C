@@ -11,10 +11,14 @@ int main()
     scanf("%d", &n);
     printf("Enter the data x[i]\n:");
     for (i = 1; i <= n; i++)
+    {
         scanf("%f", &x[i]);
+    }
     printf("Enter the corresponding frequencies f[i]\n:");
     for (i = 1; i <= n; i++)
+    {
         scanf("%d", &f[i]);
+    }
     for (i = 1; i <= n; i++)
     {
         s1 = s1 + x[i] * f[i];
