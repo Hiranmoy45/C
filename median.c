@@ -2,10 +2,9 @@
 
 #include <stdio.h>
 #include <math.h>
-#include <conio.h>
-main()
+
+int main()
 {
-    // clrscr();
     int i, j, n;
     float median, x[100], t;
     printf("Enter the number of items\n");
@@ -44,4 +43,5 @@ main()
         printf("%.2f", x[i]);
     }
     printf("\n Median is %f", median);
+    return 0;
 }
